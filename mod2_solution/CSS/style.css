@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: palegreen;
+    margin: 0px;
+}
+h1 img{
+    position: relative;
+    top: 10px;
+}
+header{
+    text-align: center;
+    background-color: rgb(4, 158, 4);
+    padding-bottom: 2px;
+}
+h1{
+    color:gold;
+    font-family: "Times New Roman", serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0px darkgoldenrod, 4px 4px 0px #013003;
+    margin-top: 0px;
+}
+.pt{
+    color: white;
+    size: 100px;
+    font-family: "Times New Roman", serif;
+    position: absolute;
+    right: 0px;
+    top: -16px;
+    margin-bottom: 5px;
+    border-radius :10px;
+}
+div > div{
+    border-radius: 10px;
+    margin: 10px; 
+    margin-left: 15px;
+    position: relative;
+    padding-top: 20px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.style_red{
+    background-color: rgb(238, 141, 155);
+}
+
+.style_blue{
+    background-color: lightskyblue;
+}
+.style_green{
+    background-color: rgb(141, 235, 53);
+}
+
+.row{
+    width: 100%;
+    padding-top: 5px;
+}
+
+/*           Media Large Devices   */
+@media (min-width: 1100px ){
+    .col-lg{
+        float: left;
+        border: 1px black;
+    }
+
+    .col-lg{
+        width: 31%;
+    }
+}
+/*           Media Medium Devices   */
+@media (min-width: 850px) and (max-width: 1099px){
+    .col-md, .col-md1{
+        float: left;
+        border: 1px black;
+    }    
+
+    .col-md{
+        width: 47%;
+    }
+    .col-md1{
+        width: 97%;
+    }
+
+}
